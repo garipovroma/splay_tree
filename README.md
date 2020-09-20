@@ -20,11 +20,11 @@ A **splay tree** is a [self-balancing binary search tree](https://en.wikipedia.o
 
 - `node* splay(node *&v)` - returns node v to which the operation `splay` (which consists of few `zig`, `zig-zag`, `zig-zig` operations) was applied 
 
-  - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Splay_tree_zig.svg/709px-Splay_tree_zig.svg.png" alt="Splay tree zig.svg" style="zoom: 60%;" /> - `zig`
+  - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Splay_tree_zig.svg/709px-Splay_tree_zig.svg.png" alt="Splay tree zig.svg" style="zoom: 30%;" /> - `zig`
 
-  - <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Zigzig.gif" alt="Zigzig.gif" style="zoom: 80%;" /> - `zig-zig`
+  - <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Zigzig.gif" alt="Zigzig.gif" style="zoom: 40%;" /> - `zig-zig`
 
-  - <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Zigzag.gif" alt="Zigzag.gif" style="zoom:80%;" /> - `zig-zag`
+  - <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Zigzag.gif" alt="Zigzag.gif" style="zoom:40%;" /> - `zig-zag`
 
     
 
