@@ -8,7 +8,7 @@ A **splay tree** is a [self-balancing binary search tree](https://en.wikipedia.o
 
 **Available methods**
 
-<u>*Methods for keep splay-tree structure*</u> :
+<u>*Methods for keep splay-tree structure :*</u>
 
 - `new_node(int x)` - creates a new node with `key(field X at node) = x`
 
@@ -30,7 +30,7 @@ A **splay tree** is a [self-balancing binary search tree](https://en.wikipedia.o
 
 - `void upd_sz(node *&v)` - updates subtree size for node `v`
 
-*<u>Basic Binary Search Tree operations:</u>*
+<u>*Basic Binary Search Tree operations :*</u>
 
 - `std::pair <node*, node*> split(node *&v, int k)` - splits subtree of `v` node by key `k` 
 - `node *merge(node *&vl, node *&vr)` - merges `vl` and `vr` subtrees, works only in case where any key from `vl` less then every key from `v2`
@@ -42,6 +42,4 @@ A **splay tree** is a [self-balancing binary search tree](https://en.wikipedia.o
 - `int kth_min(int k)` - finds the k-smallest key in tree
 
 ---
-
-Links: [Splay-Tree visualization](https://www.cs.usfca.edu/~galles/visualization/SplayTree.html), [page on wikipedia]([https://en.wikipedia.org/wiki/Splay_tree#:~:text=A%20splay%20tree%20is%20a,(log%20n)%20amortized%20time.](https://en.wikipedia.org/wiki/Splay_tree#:~:text=A splay tree is a,(log n) amortized time.)
 
