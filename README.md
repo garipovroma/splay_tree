@@ -11,23 +11,10 @@ A **splay tree** is a [self-balancing binary search tree](https://en.wikipedia.o
 <u>*Methods for keep splay-tree structure :*</u>
 
 - `new_node(int x)` - creates a new node with `key(field X at node) = x`
-
 - `void rotate(node *&v, node *&p)` - rotates an edge `(p - v)`, like `(x - y)` on this pic ![img](https://habrastorage.org/getpro/habr/post_images/58b/97d/c8b/58b97dc8bf8293538e48a34716f4e1f5.png)
-
 - `void set_parent(node *&v, node *p)` -sets parent of node `v` = `p`
-
 - `void keep_parent(node *&v)` - sets parent for `v->l` and `v->r` nodes equal to `v`
-
 - `node* splay(node *&v)` - returns node v to which the operation `splay` (which consists of few `zig`, `zig-zag`, `zig-zig` operations) was applied 
-
-  - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Splay_tree_zig.svg/709px-Splay_tree_zig.svg.png" alt="Splay tree zig.svg" style="zoom: 20%;" /> - `zig`
-
-  - <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Zigzig.gif" alt="Zigzig.gif" style="zoom: 20%;" /> - `zig-zig`
-
-  - <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Zigzag.gif" alt="Zigzag.gif" style="zoom:20%;" /> - `zig-zag`
-
-    
-
 - `void upd_sz(node *&v)` - updates subtree size for node `v`
 
 <u>*Basic Binary Search Tree operations :*</u>
