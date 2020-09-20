@@ -21,8 +21,8 @@ A **splay tree** is a [self-balancing binary search tree](https://en.wikipedia.o
 
 - `std::pair <node*, node*> split(node *&v, int k)` - splits subtree of `v` node by key `k` 
 - `node *merge(node *&vl, node *&vr)` - merges `vl` and `vr` subtrees, works only in case where any key from `vl` less then every key from `v2`
-- `void add(int x)` adds a new node with `key = x` to tree
-- `void remove(int x)` - removes node with `key = x` from tree
+- `void add(int x)` adds a new node with `key = x` to the tree
+- `void remove(int x)` - removes node with `key = x` from the tree
 - `int next(int x)` - finds the least key in tree, which greater than x
 - `int prev(int x)` - finds the greatest key in tree, which less than x
 - `int kth_max(int k)` - finds the k-largest key in tree
