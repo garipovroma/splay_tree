@@ -3,4 +3,4 @@ project(splay_tree)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(splay_tree splay_tree.h node.h splay_tree.cpp main.cpp)
+add_executable(splay_tree tree/splay_tree.h tree/node.h tree/splay_tree.cpp main.cpp)
